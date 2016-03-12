@@ -1,28 +1,40 @@
-name: Clockwork Espresso
 favicon: null
-layout_spectrum: 0.9766333161387593
-typography_spectrum: 0.7462292700074613
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Clockwork Espresso
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.5399213822092861
-  lightness: 0.9086707106325775
-  saturation: 0.30436420370824635
-  rhythmicContrast: 0.7130734755191952
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.6823694
+  brandStrength: 1
+  lightness: 0.7929105
+  brandColors:
+    - '#1E1D1F'
+    - '#877778'
+    - '#C67FB4'
+    - '#B25D3A'
+    - '#3A7765'
+  rhythmicContrast: 1
+typography_spectrum: 0.1520522
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+layout_spectrum: 0
